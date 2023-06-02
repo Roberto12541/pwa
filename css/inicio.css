@@ -24,7 +24,7 @@ header {
   flex-direction: column;
   gap: 10px;
 }
-.page-body .continue h3{
+.page-body .continue h4{
   margin-bottom: 15px;
   color: gray;
 }
