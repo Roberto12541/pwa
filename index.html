@@ -23,35 +23,32 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="navbar">
-    </header>              
-    <main class="principal"> 
+    <main>
+        <div class="fondo"></div>
         <div class="login">
-            <div class="blanco circle">
-                <img class="logo" src="img/logo.png" alt="Logo de FloraTech">
-            </div>             
-            
-            <h1>Iniciar Sesión</h1>
-            <form id="loginForm">
-                <!---Username--->
-                <label for="username">Usuario: </label>
-                <input type="text" id="username" placeholder="Ingrese Usuario" required>
-    
-                <!---Password--->
-                <label for="password">Contraseña: </label>
-                <input type="password" id="password" placeholder="Ingrese Contraseña" required>
-    
-                <input type="submit" value="Aceptar"><br>
-    
-                <a href="#"> ¿Has olvidado tú contraseña?</a><br>
-                <a href="#"> Crear una cuenta</a>
-    
-            </form>
-        </div> 
-        <div id="message"></div>   
-        <footer class="foot">
-        </footer>          
+            <div class="login-header">
+                <h1>Welcom Back</h1>
+                <span>Login to your account</span>
+            </div>
+            <div class="login-body">
+                <div class="forma">
+                    <input type="text" name="" id="" placeholder="Full Name">
+                    <input type="text" name="" id="" placeholder="Password">
+                    <div class="opciones">
+                        <div class="remember">
+                            <input type="radio" name="" id="">
+                            <span>Remember Me</span>
+                        </div>
+                        <span>Forget Password?</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button>Login</button>
+                    <span>Don't have account? <a href="">Sing Up</a></span>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="js/scripts.js"></script>
-    </body>
+</body>
 </html>
