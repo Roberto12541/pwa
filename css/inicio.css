@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h2 {
+  font-weight: 500;
+}
+header {
+  padding: 20px;
+}
+.page {
+  padding: 0 20px;
+}
+.page-header {
+  margin: 40px 0px;
+}
+.page-header span {
+  color: rgba(128, 128, 128, 0.74);
+}
+.page-body{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-body .continue h3{
+  margin-bottom: 15px;
+  color: gray;
+}
+.page-body .continue img {
+  width: 95%;
+  border-radius: 20px;
+}
