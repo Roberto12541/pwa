@@ -12,7 +12,7 @@ main{
 .fondo{
   position: absolute;
   width: 100%;
-  height: 35vh;
+  height: 30vh;
   background-image: url('../img/login.avif');
   background-position: center center;
   background-size: cover;
@@ -21,7 +21,7 @@ main{
 .login{
   position: absolute;
   z-index: 100;
-  top: 25vh;
+  top: 20vh;
   width: 100%;
   height: 60vh;
   background-image: url('../img/login.svg');
@@ -51,6 +51,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
 }
 .login-body .forma{
   display: flex;
@@ -71,14 +72,14 @@ main{
 .login-body .forma .opciones .remember span{
   color: rgba(128, 128, 128, 0.603);
 }
-.login-body .forma .opciones span{
+.login-body .forma .opciones span a{
   color: #40744d;
 }
 .login-body .buttons{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 .login-body .buttons button{
   width: 100%;

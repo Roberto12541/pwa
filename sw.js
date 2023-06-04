@@ -1,4 +1,4 @@
-const VERSION = "1.000";
+const VERSION = "1.2";
 const CACHE = "FloraTech";
 
 const ARCHIVOS = [
@@ -13,6 +13,7 @@ const ARCHIVOS = [
   "lib/js/regSw.js",
   "favicon.ico",
   "index.html",
+  "html/registro.html",
   "site.webmanifest",
   "/",
 ];

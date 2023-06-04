@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+.fondo {
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    background-image: url("../img/login.avif");
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.login {
+    position: absolute;
+    z-index: 100;
+    top: 5vh;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/login.svg");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.login-header h1 {
+    color: #40744d;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.login-header span {
+    color: rgba(128, 128, 128, 0.514);
+    font-weight: 600;
+}
+
+.login-body {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.login-body .forma {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-body .forma input {
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dae5dd;
+}
+
+.login-body .opciones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-body .forma .opciones .remember span {
+    color: rgba(128, 128, 128, 0.603);
+}
+
+.login-body .forma .opciones span a {
+    color: #40744d;
+}
+
+.login-body .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-body .buttons button {
+    width: 100%;
+    background-color: #40744d;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.login-body .buttons span {
+    color: rgba(128, 128, 128, 0.479);
+}
+
+.login-body .buttons span a {
+    color: #40744d;
+    text-decoration: underline;
+    font-weight: bold;
+}
